@@ -16,7 +16,8 @@ ENTITY five_leds is
    END five_leds ;
 
 ARCHITECTURE light OF five_leds IS
-SIGNAL clk1,CLK2:std_logic;
+    SIGNAL clk1 : std_logic;
+    SIGNAL clk2 : std_logic;
 BEGIN
 
 P1:PROCESS (clk)
