@@ -1,6 +1,6 @@
-# Cyclone II 5LED Project
+# Cyclone II 5LED Repository
 
-This Quartus II project targets the Cyclone II `EP2C5T144C8` FPGA board and drives five board LEDs. The buzzer is explicitly muted.
+This repository contains one Quartus II design in the shared Cyclone II FPGA Board project. It targets the `EP2C5T144C8` FPGA board and drives five board LEDs. The buzzer is explicitly muted.
 
 ## Target board
 
