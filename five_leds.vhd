@@ -11,7 +11,7 @@ ENTITY five_leds is
     PORT(
         clk  : in  STD_LOGIC;  --System Clk 
         led1 : out STD_LOGIC_VECTOR(4 DOWNTO 0);
-        buzz : out STD_LOGIC --buzz output???8?
+        buzz : out STD_LOGIC --buzz output
     );   
 END five_leds ;
 
@@ -66,10 +66,10 @@ BEGIN
                     buzz <= '1';
                 WHEN 4 =>
                     led1 <= "01111";
-                    buzz <= '0';
+                    buzz <= '1';
                 WHEN OTHERS =>
                     led1 <= "11111";
-                    buzz <= '0';
+                    buzz <= '1';
             END CASE;
             count1 := count1 + 1;
         --END IF;
