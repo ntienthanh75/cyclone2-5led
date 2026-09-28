@@ -1,6 +1,6 @@
-# Cyclone II Digital Joystick LED Project
+# Cyclone II Digital Joystick LED Repository
 
-This project reads five active-low digital joystick/button signals and displays the selected direction/state on four LEDs. The buzzer is explicitly muted.
+This repository contains one design in the shared Cyclone II FPGA Board project. It reads five active-low digital joystick/button signals and displays the selected direction/state on four LEDs. The buzzer is explicitly muted.
 
 ## Target board
 
