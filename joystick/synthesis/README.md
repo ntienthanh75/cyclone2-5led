@@ -12,3 +12,7 @@ The 50 MHz experiment compiled successfully with 0 errors. The original joystick
 | Main warning | `CLK` and `RESET` do not drive logic |
 
 This is a valid fit experiment, but it is not a meaningful clock-timing result until the joystick logic is made synchronous. Reports and the SOF are under [`experiments/50MHz`](experiments/50MHz); the attempted constraint is [`joystick.sdc`](joystick.sdc).
+
+## Clock sweep
+
+The 40, 50, 60, 75, and 100 MHz builds all fit, but all report no user-constrained base clock because `CLK` is unused and optimized away. Therefore no setup/hold comparison is valid for this RTL. The experiment folders are `experiments/clk_*MHz`.
